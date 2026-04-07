@@ -1,0 +1,47 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 800px;
+            height: 800px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 80px 100px;
+            grid-template-rows: 80px 100px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            border: 1px solid black;
+            margin: 3px;
+
+        }
+        #box1{
+            grid-row: 1/2;
+            grid-column: 1/2;
+            background-color: black;
+
+        }
+        #box2{
+            grid-row: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="box1" class="box">box1</div>
+    <div id="box1" class="box">box2</div>
+    <div id="box1" class="box">box3</div>
+    <div id="box1" class="box">box4</div>
+
+
+</div>
+    
+</body>
+</html>
